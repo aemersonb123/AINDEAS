@@ -1,3 +1,158 @@
-body{
-background-color: red;
-}
+* {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .siteNav {
+    background-color: #eeeeee;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li,
+  .siteNav p {
+    display: inline-block;
+    padding: 15px 0 15px 0;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    padding: 15px;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+  }
+  
+  a {
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .buttonLinks a {
+    border-radius: 7px;
+    border: 2px solid black;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    margin: 0 5px 0 5px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .buttonLinks a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .jumbo {
+    min-height: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .jumbo h1 {
+    line-height: 2em;
+  }
+  
+  .jumbo p {
+    margin: 2em 0 2em 0;
+  }
+  
+  .displayJumbo {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(http://img08.deviantart.net/cb77/i/2012/122/1/a/landscape_wallpaper_by_nickchoubg-d4yaep3.png) center center fixed;
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(http://img08.deviantart.net/cb77/i/2012/122/1/a/landscape_wallpaper_by_nickchoubg-d4yaep3.png) center center fixed;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(http://img08.deviantart.net/cb77/i/2012/122/1/a/landscape_wallpaper_by_nickchoubg-d4yaep3.png) center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(http://img08.deviantart.net/cb77/i/2012/122/1/a/landscape_wallpaper_by_nickchoubg-d4yaep3.png) center center fixed;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 100vh;
+  }
+  
+  .displayJumbo h1 {
+    color: white;
+  }
+  
+  .aboutJumbo {
+    background-color: rgba(200, 200, 200, 0.5);
+  }
+  
+  .portfolioJumbo {
+    background-color: rgba(200, 200, 200, 0.5);
+  }
+  
+  .contactJumbo {
+    background: url(http://www.publicdomainpictures.net/pictures/10000/velka/1-1249480527aTii.jpg) center center fixed;
+    background-size: cover;
+  }
+  
+  .centerVertically {
+    position: static;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .noInlineLinks li {
+    display: list-item;
+    list-style: none;
+  }
+  
+  .projectBox {
+    border: 1px solid black;
+    height: 300px;
+    overflow-y: auto;
+  }
+  
+  .projectBox h2 {
+    text-align: center;
+  }
+  
+  footer,
+  footer p {
+    font-size: 12px;
+  }
+  
+  footer li::before {
+    content: '|';
+  }
+  
+  footer li:nth-child(1)::before {
+    content: '';
+    margin-left: -15px;
+  }
+  
+  .circleFace {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    float: right;
+    margin: 30px;
+    background: url(https://avatars3.githubusercontent.com/u/7306176?v=3&s=460) center center;
+    background-size: cover;
+  }
+  
+  .dividerJumbo {
+    background: url(https://i.imgur.com/D7rw2v5.jpg) center center fixed;
+    background-size: cover;
+    height: 50vh;
+  }
+  .subtitle {
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+  }

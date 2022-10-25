@@ -1,24 +1,141 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <styles.css href="styles.css"></styles.css>
-</head>
-<body>
-    <div class="header">
-        <h1>Aiden Bostwick </h1>
-        <nav>
-
-        </nav>
+<header class="siteNav">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <p>Aiden Bostwick</p>
+        </div>
+        <div class="col-md-8 text-right">
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
-    <div class="body">
-        <p> Hellow World! My name is Aiden Bostwick I reacently graduated from </p>
-    I am a recent graduate from a full stack web development bootcamp.
-    now Im on the hunt for jobs!
-
+  </header>
+  
+  <a name="home"></a>
+  <section class="jumbo displayJumbo text-center">
+    <div class="container centerVertically">
+      <h1>William H. Nguyen</h1>
+      <p class="subtitle">Let your fire pave your journey</p>
+      <hr>
+      <nav class="buttonLinks">
+        <ul>
+          <li><a href="https://www.facebook.com/williamhnguyen"><i class="fa fa-facebook"></i> Facebook</a></li>
+          <li><a href="https://www.twitter.com/willhnguyen"><i class="fa fa-twitter"></i> Twitter</a></li>
+          <li><a href="https://www.github.com/willhnguyen"><i class="fa fa-github"></i> Github</a></li>
+          <li><a href="https://www.freecodecamp.com/willhnguyen"><i class="fa"></i> freeCodeCamp</a></li>
+        </ul>
+      </nav>
     </div>
-</body>
-</html>
+  </section>
+  
+  
+  <a name="about"></a>
+  <section class="jumbo aboutJumbo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>About Me</h1>
+          <div class="circleFace"> </div>
+          <p>Hey! My name is William, and I am an aspiring software developer. I recently graduated from the University of California, Davis with Bachelor of Science in Computer Science.</p>
+          <p>My skill set includes the following:</p>
+          <ul>
+            <li><b>Programming Langauges:</b> C++, C, Java, JavaScript, Swift, HTML, CSS, Matlab</li>
+            <li><b>Libraries and Frameworks:</b> OpenGL, GL Shading Language (GLSL), Ionic Framework</li>
+            <li><b>Operating Systems:</b> Mac OS X, Windows, Linux (Ubuntu), Unix</li>
+            <li><b>IDEs:</b> Xcode, Interface Builder, Qt</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="dividerJumbo">
+  </section>
+  
+  <a name="portfolio"></a>
+  <section class="jumbo portfolioJumbo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Portfolio</h1>
+          <p>Below are a few of the projects I've been involved in at University. FreeCodeCamp projects coming soon!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 projectBox">
+          <img src="" alt="UCD Eats Thumbnail" width="100%">
+          <h2>UCD Eats</h2>
+  <!--        <p>Jan. 2015 - June 2015</p>
+          <ul>
+            <li>Collaborated with a team to create a mobile app to present and log nutrition information of the foods at the UC Davis Coffee House</li>
+            <li>Implemented UI features</li>
+            <li>Fixed incorrect layouts</li>
+          </ul>-->
+        </div>
+        <div class="col-md-4 projectBox">
+          <img src="" alt="Image Matching Thumbnail" width="100%">
+          <h2>Image Matching</h2>
+  <!--        <p>May 2015</p>
+          <ul>
+            <li>Created a Matlab script to compare an image with an image database to find the most similar images</li>
+          </ul>-->
+        </div>
+        <div class="col-md-4 projectBox">
+          <img src="" alt="Graphics Pipeline Thumbnail" width="100%">
+          <h2>Graphics Pipeline and Shaders</h2>
+          <!--<p>Oct. 2014 - Nov. 2014</p>
+          <ul>
+            <li>Rewrote the graphics pipeline to use the CPU</li>
+            <li>Wrote vertex and fragment shaders to calculate lighting and textures using either Gouraud or Phong shading</li>
+          </ul>-->
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <a name="contact"></a>
+  <section class="jumbo contactJumbo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Contact</h1>
+          <p></p>
+        </div>
+        <div class="col-md-6">
+          <nav class="buttonLinks noInlineLinks text-right">
+            <ul>
+              <li><a href="https://www.facebook.com/williamhnguyen"><i class="fa fa-facebook"></i> Facebook</a></li>
+              <li><a href="https://www.twitter.com/willhnguyen"><i class="fa fa-twitter"></i> Twitter</a></li>
+              <li><a href="https://www.github.com/willhnguyen"><i class="fa fa-github"></i> Github</a></li>
+              <li><a href="https://www.freecodecamp.com/willhnguyen"><i class="fa"></i> freeCodeCamp</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav>
+            <ul class="footerNav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <p>Copyright &copy; William H. Nguyen 2015. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
